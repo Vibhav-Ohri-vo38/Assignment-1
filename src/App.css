@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.app {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.header {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 5px solid orange;
+}
+
+.name-title {
+  text-align: left;
+}
+
+.contact {
+  text-align: right;
+}
+
+.profile, .work-experience, .skills, .education {
+  padding: 20px;
+  border-bottom: 2px solid black;
+  text-align: left;
+  width: 100%;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
